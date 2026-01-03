@@ -29,7 +29,7 @@ A structured set of analytical tools designed to transform raw market data into 
 
 Transforms **raw market data** into structured trade contexts using a sliding window approach.
 
-### How it works
+### How it works ?
 - The price series is split into overlapping windows of fixed length  
 - Each window represents a potential trade setup at that point in time  
 - Features are computed only from past data within the window (no leakage)  
@@ -78,12 +78,12 @@ Automatically extracts hundreds of statistically meaningful features from each t
 Discovers repeating price action patterns directly from historical data using  
 **STUMPY (Matrix Profile)**.
 
-### What it finds
+### What it finds ?
 - Bullish and bearish trade setups  
 - Consolidation and breakout structures  
 - Mean-reversion and pullback patterns  
 
-### How it works
+### How it works ?
 - Searches for similar subsequences across the entire price history  
 - Groups recurring structures into **Trade Pattern** objects  
 - Each pattern contains multiple historical occurrences (instances)  
@@ -134,7 +134,7 @@ Finds time-warped versions of the same trade using **Dynamic Time Warping (DTW)*
 
 Provides both static and interactive tools to visually validate discovered trade patterns.
 
-### What you can inspect
+### What you can inspect ?
 - Entry-to-exit price shapes  
 - Pattern overlap and clustering  
 - Frequency, stability, and consistency  
