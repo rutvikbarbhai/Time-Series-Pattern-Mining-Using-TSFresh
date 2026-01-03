@@ -200,7 +200,7 @@ The codebase mirrors the natural workflow of quantitative trade research:
 │
 └── examples/                # Example scripts & experiments
 ```
-Why this structure?
+- Why this structure❓
 - Modify feature engineering independently
 - Swap pattern discovery logic
 - Experiment with different expansion strategies
