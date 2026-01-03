@@ -11,7 +11,7 @@ This system is designed to work on **price, returns, indicators, or derived trad
 Built for **quants, algo traders, researchers, and market microstructure analysis**.
 
 
-## <img src="https://github.com/user-attachments/assets/d3a7713c-0fa3-4fba-a8b3-1cb60e4dafce"  height="25px" style="position: bottom;">  Trading Context : Understanding the Market Problems This Framework Solves 
+## <img src="https://github.com/user-attachments/assets/d3a7713c-0fa3-4fba-a8b3-1cb60e4dafce"  height="25px" style="position: bottom;">  Trading Context : Understanding the Market Problems This Framework Solves. 
 
 In trading context, this framework helps us answer:
 
