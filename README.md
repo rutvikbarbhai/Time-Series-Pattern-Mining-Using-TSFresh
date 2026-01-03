@@ -178,7 +178,8 @@ Dependency warnings related to datasets can be safely ignored unless you explici
 ### <img src="https://github.com/user-attachments/assets/6467a42f-afae-4dc7-8ede-46f12a087c6f" width="18" /> Trading-Oriented Project Structure
 The codebase mirrors the natural workflow of quantitative trade research:
 ```bash
-.
+Time-Series-Pattern-Mining-Using-TSFresh
+│ 
 ├── trade_features/          # Feature engineering layer
 │   ├── sliding_windows
 │   ├── TsFreshConfigurator
