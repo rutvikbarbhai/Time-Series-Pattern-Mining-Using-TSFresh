@@ -10,27 +10,24 @@ This system is designed to work on **price, returns, indicators, or derived trad
 
 Built for **quants, algo traders, researchers, and market microstructure analysis**.
 
----
 
-## 🎯 What This Framework Is About (Trading Context)
+## <img src="https://github.com/user-attachments/assets/d3a7713c-0fa3-4fba-a8b3-1cb60e4dafce"  height="25px" style="position: bottom;">  Trading Context : Understanding the Market Problems This Framework Solves 
 
-In trading terms, this framework helps answer:
+In trading context, this framework helps us answer:
 
-- ❓ Do certain price movements repeat before profitable trades?  
-- ❓ How often does a specific setup reappear?  
-- ❓ Are these patterns time-scaled versions of the same market behavior?  
-- ❓ How stable is a trade pattern statistically?  
+❓ Do certain price movements repeat before profitable trades?  
+❓ How often does a specific setup reappear?  
+❓ Are these patterns time-scaled versions of the same market behavior?  
+❓ How stable is a trade pattern statistically?  
 
 It treats **trade setups as patterns** and discovers them directly from historical price series.
 
----
 
-## 🧠 Core Trading Capabilities
+## <img src="https://github.com/user-attachments/assets/6672ee8c-15ed-4fb5-9cd5-63c04ac747c1" height="24px" style="vertical-align: bottom; margin-right: 10px;"> Core Analytical Capabilities for Trade Pattern Extraction
 
 ### 1️⃣ Sliding Window Trade Feature Extraction
 
 Converts raw price series into **feature-rich trade windows**
-
 - Each window = potential trade context  
 - Supports:
   - OHLC-derived signals  
@@ -40,7 +37,6 @@ Converts raw price series into **feature-rich trade windows**
 
 ✔ Produces **ML-ready trade datasets**
 
----
 
 ### 2️⃣ Automated Trade Feature Engineering (TSFresh)
 
