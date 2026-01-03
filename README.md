@@ -15,10 +15,10 @@ Built for **quants, algo traders, researchers, and market microstructure analysi
 
 In trading context, this framework helps us answer:
 
-❓ Do certain price movements repeat before profitable trades?  
-❓ How often does a specific setup reappear?  
-❓ Are these patterns time-scaled versions of the same market behavior?  
-❓ How stable is a trade pattern statistically?  
+- Do certain price movements repeat before profitable trades❓  
+- How often does a specific setup reappear❓  
+- Are these patterns time-scaled versions of the same market behavior❓ 
+- How stable is a trade pattern statistically❓  
 
 It treats **trade setups as patterns** and discovers them directly from historical price series.
 
@@ -29,7 +29,7 @@ A structured set of analytical tools designed to transform raw market data into 
 
 Transforms **raw market data** into structured trade contexts using a sliding window approach.
 
-### How it works ?
+### How it works❓
 - The price series is split into overlapping windows of fixed length  
 - Each window represents a potential trade setup at that point in time  
 - Features are computed only from past data within the window (no leakage)  
@@ -40,7 +40,7 @@ Transforms **raw market data** into structured trade contexts using a sliding wi
 - Volatility segments  
 - Indicator-based signals (RSI, MACD, etc.)  
 
-### Why This Is Important for Trading ?
+### Why This Is Important for Trading❓ 
 - Converts time series into tabular ML-ready data  
 - Enables supervised / unsupervised learning on trade setups  
 - Aligns naturally with how traders reason about entries  
@@ -78,12 +78,12 @@ Automatically extracts hundreds of statistically meaningful features from each t
 Discovers repeating price action patterns directly from historical data using  
 **STUMPY (Matrix Profile)**.
 
-### What it finds ?
+### What it finds❓
 - Bullish and bearish trade setups  
 - Consolidation and breakout structures  
 - Mean-reversion and pullback patterns  
 
-### How it works ?
+### How it works❓
 - Searches for similar subsequences across the entire price history  
 - Groups recurring structures into **Trade Pattern** objects  
 - Each pattern contains multiple historical occurrences (instances)  
@@ -121,7 +121,7 @@ Finds time-warped versions of the same trade using **Dynamic Time Warping (DTW)*
 - Accelerated vs delayed reversals  
 - Compressed or stretched market moves  
 
-### Why This Is Important for Trading ?
+### Why This Is Important for Trading❓
 - Real markets rarely move at fixed speeds  
 - DTW captures the *shape* of a trade, not its exact timing  
 
@@ -134,7 +134,7 @@ Finds time-warped versions of the same trade using **Dynamic Time Warping (DTW)*
 
 Provides both static and interactive tools to visually validate discovered trade patterns.
 
-### What you can inspect ?
+### What you can inspect❓
 - Entry-to-exit price shapes  
 - Pattern overlap and clustering  
 - Frequency, stability, and consistency  
