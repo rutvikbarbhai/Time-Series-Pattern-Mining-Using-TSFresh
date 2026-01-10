@@ -290,9 +290,11 @@ pattern_copy.show()
 ```
 
 <img width="863" height="298" alt="image" src="https://github.com/user-attachments/assets/ae3c22a2-c486-4400-83ee-40d231938bb3" />
+
 ```bash
 pattern_copy.show()
 ```
+
 <img width="863" height="299" alt="image" src="https://github.com/user-attachments/assets/fa571876-698a-4965-ba90-9062d5173286" />
 
 ### 🖥️ Step 5: Visual Validation
