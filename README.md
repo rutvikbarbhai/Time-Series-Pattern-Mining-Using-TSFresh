@@ -278,6 +278,22 @@ Includes:
 - Time-scale variability
 
 These metrics help decide whether a pattern is tradable or noise.
+<img width="862" height="295" alt="image" src="https://github.com/user-attachments/assets/75f14207-3b94-4bfb-8dd3-25eb73a4db45" />
+```bash
+pattern.show()
+```
+
+<img width="863" height="298" alt="image" src="https://github.com/user-attachments/assets/a6008c9d-b812-46fe-8380-06315ae3db61" />
+
+```bash
+pattern_copy.show()
+```
+
+<img width="863" height="298" alt="image" src="https://github.com/user-attachments/assets/ae3c22a2-c486-4400-83ee-40d231938bb3" />
+```bash
+pattern_copy.show()
+```
+<img width="863" height="299" alt="image" src="https://github.com/user-attachments/assets/fa571876-698a-4965-ba90-9062d5173286" />
 
 ### 🖥️ Step 5: Visual Validation
 Visually inspect discovered trade setups before using them in a strategy.
