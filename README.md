@@ -2,7 +2,7 @@
 
 A quantitative trading–oriented time series analysis framework designed to systematically extract, identify, expand, and statistically validate recurring market and trade setup patterns from financial price series, returns, indicators, and derived trading signals.
 This system is designed to work on **price, returns, indicators, or derived trade signals** and enables:
-
+.
 - Automated feature engineering for trading windows  
 - Discovery of repeating market patterns (setups)  
 - Expansion of patterns using similarity & DTW  
